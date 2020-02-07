@@ -50,7 +50,7 @@ postSchema.index({ content: 'text' });
 ```javascript
 postSchema.index({ title: 'text' , content: 'text'});
 ```
-이렇게 작성하면 두개의 값이 인덱싱된다. 인덱스 된 결과가 두개가 합쳐져있어 잘못된 것인줄 알았는데 잘 실행되었다.
+이렇게 작성하면 두개의 값이 인덱싱된다. 인덱스 된 결과가 두개의 인덱스가 합쳐져있어 잘못된 것인줄 알았는데 잘 실행되었다.
 
 검색은 `find`를 이용해서 `$search: "검색할 문자"` 옵션을 이용하면 된다.
 ```javascript
