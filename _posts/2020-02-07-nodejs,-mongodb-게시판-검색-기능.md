@@ -81,6 +81,7 @@ Post.find({ title: new RegExp('test')})
 앞쪽에서 너무 많이 헤맸는데 생각보다 쉽게 해결되어서 허무했다.
 
 [javascript의 정규표현식에 관한 문서](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+
 [정규표현식을 테스트할 수 있는 사이트](https://regexr.com/)
 
 
