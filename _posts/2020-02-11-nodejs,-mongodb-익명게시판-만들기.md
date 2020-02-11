@@ -1,8 +1,10 @@
 ---
-title: "nodejs, mongodb 익명게시판 만들기"
+title: nodejs, mongodb 익명게시판 만들기
 date: 2020-02-11 22:00:00 +0800
 categories: [Develop, NodeJs]
 tags: [nodejs, mongodb]
+seo:
+  date_modified: 2020-02-12 02:47:23 +0900
 ---
 
 ## 목표
