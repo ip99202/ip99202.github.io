@@ -1,7 +1,7 @@
 ---
 title: SQL having과 where의 차이
 date: 2020-03-13 19:00:00 +0800
-categories: [SQL]
+categories: [Develop, SQL]
 tags: [sql]
 
 ---
