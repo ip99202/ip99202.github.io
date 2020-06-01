@@ -1,7 +1,7 @@
 ---
 title: nodejs, mongodb 게시판 검색 기능
 date: 2020-02-07 23:40:00 +0800
-categories: [Develop, MongoDB]
+categories: [Develop, MongoDB, EZSET]
 tags: [nodejs, mongodb]
 seo:
   date_modified: 2020-02-08 02:40:14 +0900
