@@ -45,11 +45,11 @@ body {
   transition: transform 0.4s ease;
   background: rgb(30, 85, 107);
   background: var(--sidebar-bg,
-    radial-gradient(circle, rgb(30, 89, 107) 0%, rgb(35, 43, 46) 100%));
+    radial-gradient(circle, rgb(252, 254, 255) 0%, rgb(196, 196, 196) 100%));
 }
 
 #sidebar a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(54, 54, 54, 0.5);
   transition: color 0.35s ease-in-out;
 }
 
@@ -65,11 +65,11 @@ body {
 }
 
 #sidebar .nav-item:hover .nav-link {
-  color: #f8f9facf;
+  color: #313131cf;
 }
 
 #sidebar .nav-item.active .nav-link {
-  color: #fcfcfc;
+  color: #363636;
 }
 
 #sidebar ul {
@@ -124,7 +124,7 @@ body {
   position: relative;
   width: 3px;
   height: 26px;
-  background-color: var(--nav-cursor, #fcfcfc);
+  background-color: var(--nav-cursor, #3a3a3a);
   pointer-events: none;
 }
 
@@ -185,21 +185,21 @@ body {
 }
 
 #site-title a {
-  color: #b6b6b6;
+  color: #3a3a3a;
   font-weight: 900;
   font-size: 1.5rem;
   letter-spacing: .5px;
 }
 
 #site-title a:hover {
-  color: #fff;
+  color: rgb(51, 51, 51);
   text-decoration: none;
 }
 
 #site-subtitle {
   font-size: 95%;
   text-align: center;
-  color: #828282;
+  color: #444444;
   line-height: 1.2rem;
   word-spacing: 1px;
   margin: .5rem 1.5rem 2rem 1.5rem;
@@ -232,7 +232,7 @@ body {
 }
 
 #sidebar .contact a:hover {
-  color: #fff;
+  color: rgb(59, 59, 59);
 }
 
 /*--- top-bar ---*/
