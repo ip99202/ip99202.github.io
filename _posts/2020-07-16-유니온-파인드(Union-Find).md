@@ -15,29 +15,29 @@ seo:
 - 트리 구조로 이루어진 자료구조 중 한가지로 생각되기도 한다.  
 <br>
 
-![image](/assets/img/postImg/unionfind/unionfind01.png)  
+![image](/assets/img/postImg/unionfind/unionfind01.PNG)  
 이렇게 생긴 기차 노선이 있다고 생각해보자  
 기차를 타고 서울에서 강릉으로 가는건 가능하지만 서울에서 부산으로 가는건 불가능하다.  
 간단한 그래프에서는 한점에서 다른점으로 가는 길이 이어져있는지 판단하는게 간단하다.  
 <br>
-![image](/assets/img/postImg/unionfind/unionfind02.png)  
+![image](/assets/img/postImg/unionfind/unionfind02.PNG)  
 하지만 이런 복잡한 그래프에서 빠른 시간안에 판별하는건 힘들다.  
 이렇게 복잡한 그래프에서 두 노드가 연결되어 있는지 단절되어 있는지 판별하기 위한 알고리즘을 알아보자.  
 <br><br>
 
 ## 유니온 파인드  
-![image](/assets/img/postImg/unionfind/unionfind03.png)  
+![image](/assets/img/postImg/unionfind/unionfind03.PNG)  
 8개의 단절된 노드들이 있다.  
 이 노드들은 배열에 자기 자신의 값을 가지고 있다.  
 <br><br>
-![image](/assets/img/postImg/unionfind/unionfind04.png)  
+![image](/assets/img/postImg/unionfind/unionfind04.PNG)  
 이 중에 1 2 노드를 연결하고 4 5 6 노드들을 연결하고 싶다.  
 <br><br>
-![image](/assets/img/postImg/unionfind/unionfind05.png)  
+![image](/assets/img/postImg/unionfind/unionfind05.PNG)  
 우선 1 2 노드를 합쳐보자  
 합치는 방법은 간단하다 2번 노드의 배열 값을 1번 노드의 배열 값으로 바꿔주면 된다.  
 <br><br>
-![image](/assets/img/postImg/unionfind/unionfind06.png)  
+![image](/assets/img/postImg/unionfind/unionfind06.PNG)  
 4 5 6도 마찬가지로 바꿔보자  
 4와 5를 연결하고 5와 6을 연결하면 그림처럼 배열이 바뀐다.  
 
@@ -61,19 +61,19 @@ seo:
 
 하지만 이렇게만 바꾸면 문제가 생긴다.  
 <br><br>
-![image](/assets/img/postImg/unionfind/unionfind07.png)  
+![image](/assets/img/postImg/unionfind/unionfind07.PNG)  
 위의 예처럼 트리의 문제 중 하나인 한쪽으로만 자식이 몰려있는 편중현상이 생길 수 있는 것이다.  
 Find연산에서 재귀를 통해 루트 노드를 찾아야하는데 이렇게 편중되어 있으면 탐색하는데 시간이 많이 걸린다.  
 <br><br>
-![image](/assets/img/postImg/unionfind/unionfind08.png)  
+![image](/assets/img/postImg/unionfind/unionfind08.PNG)  
 위의 편중 문제를 해결하기 위해 합치는 Union연산을 할 때  
 루트 노드를 찾는 탐색과정을 통해 루트노드에 연결하는 과정을 거쳐  
 결과적으로 위의 그림처럼 트리가 형성된다.  
 <br><br>
-![image](/assets/img/postImg/unionfind/unionfind09.png)  
+![image](/assets/img/postImg/unionfind/unionfind09.PNG)  
 1 2 를 연결하고 4 5 6을 연결한 유니온 파인드의 트리구조이다.  
 <br><br>
-![image](/assets/img/postImg/unionfind/unionfind10.png)  
+![image](/assets/img/postImg/unionfind/unionfind10.PNG)  
 이제 1과 4번 노드를 연결하고 싶다면 위의 그림처럼 바뀔 것이다.  
 위의 과정을 다 이해할 수 있다면 유니온 파인드를 다 이해한것이다.  
 <br><br>
