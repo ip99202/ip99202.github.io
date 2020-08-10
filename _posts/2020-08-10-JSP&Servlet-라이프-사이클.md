@@ -52,7 +52,7 @@ public class LifeCycle extends HttpServlet {
 
 
 ## 코드의 실행 결과 & 라이프 사이클의 과정  
-<img width="400px" src="https://user-images.githubusercontent.com/52627952/89768461-969fe680-db36-11ea-989b-1e62c1c27205.JPG">  
+<img src="https://user-images.githubusercontent.com/52627952/89768461-969fe680-db36-11ea-989b-1e62c1c27205.JPG">  
 
 처음 서블릿이 실행되면  
 서버는 메모리에 해당 클래스가 있는지 확인 후  
