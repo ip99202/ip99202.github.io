@@ -4,7 +4,7 @@ date: 2020-08-10 17:00:00 +0800
 categories: [Develop, JSP-Servlet]
 tags: [jsp-servlet]
 seo:
-  date_modified: 2020-08-21 23:07:29 +0900
+  date_modified: 2020-08-21 23:09:39 +0900
 ---
 
 ## 라이프 사이클이란?  
