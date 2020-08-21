@@ -1,0 +1,33 @@
+---
+title: sitemap.xml 오류 해결 expecting ';'
+date: 2020-03-26 16:35:00 +0800
+categories: [Blogging, GitHub]
+tags: [github]
+---
+
+# EntityRef: expecting ';'
+---
+요즘 계속 블로그 최신 글들이 검색이 안되서  
+오늘 [구글 웹 마스터 도구](https://www.google.com/webmasters/tools/home?hl=ko)에 들어가봤다.  
+
+사이트맵을 들어가보니 빨간색으로 오류라고 뜬 것을 발견했다..  
+[사이트맵 검사기](https://www.websiteplanet.com/ko/webtools/sitemap-validator/)에 들어가서 사이트맵을 입력해보니  
+`EntityRef: expecting ';'`이런 오류가 발생했다.  
+
+열심히 구글검색을 해보니 `&`가 있어서 발생하는 오류였다.  
+내 블로그 글 제목들에는 `&`이 붙어있지 않는데 이상해서 직접 확인해보기로 했다.  
+
+우선 내 블로그의 사이트맵 url로 들어간다 [https://ip99202.github.io/sitemap.xml](https://ip99202.github.io/sitemap.xml)  
+그리고 개발자도구를 열고 네트워크 탭으로 들어간다.  
+새로고침을 해주면  
+<img width="600px" src="https://user-images.githubusercontent.com/52627952/90901597-203c9780-e406-11ea-90ae-4e2bfe697481.JPG">  
+이런 화면이 나타난다.  
+sitemap.xml을 선택해주고  
+<img width="600px" src="https://user-images.githubusercontent.com/52627952/90901624-27fc3c00-e406-11ea-9c79-9fbc47ee3b7c.JPG">  
+중괄호 표시를 선택한다.  
+<img width="600px" src="https://user-images.githubusercontent.com/52627952/90901628-292d6900-e406-11ea-9d79-f84151cf5e51.JPG">  
+
+그리고 `ctrl+F`를 눌러 `&`를 찾아보니  
+블로그의 태그와 카테고리에 `&`가 들어간 것을 확인했다.  
+
+태그와 카테고리에 `&`가 없더록 바꿔주니 `sitemap.xml`파일이 정상적으로 작동했다.  
