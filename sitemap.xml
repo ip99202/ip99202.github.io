@@ -9,7 +9,8 @@ layout: compress
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% for post in site.posts %}
   {% unless post.published == false %}
 
@@ -28,15 +29,15 @@ layout: compress
     <lastmod>{{ lastmod | date_to_xmlschema }}</lastmod>
 
     {% if post.sitemap.changefreq %}
-      <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+    <changefreq>{{ post.sitemap.changefreq }}</changefreq>
     {% else %}
-      <changefreq>monthly</changefreq>
+    <changefreq>monthly</changefreq>
     {% endif %}
 
     {% if post.sitemap.priority %}
-      <priority>{{ post.sitemap.priority }}</priority>
+    <priority>{{ post.sitemap.priority }}</priority>
     {% else %}
-      <priority>0.5</priority>
+    <priority>0.5</priority>
     {% endif %}
   </url>
   {% endunless %}
@@ -81,20 +82,20 @@ layout: compress
     {% endif %}
   {% endcapture %}
 
-   <url>
+  <url>
     <loc>{{ site.url | append: site.baseurl | append: page.url | remove: "index.html" }}</loc>
     <lastmod>{{ lastmod | date_to_xmlschema }}</lastmod>
 
     {% if page.sitemap.changefreq %}
-      <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+    <changefreq>{{ page.sitemap.changefreq }}</changefreq>
     {% else %}
-      <changefreq>monthly</changefreq>
+    <changefreq>monthly</changefreq>
     {% endif %}
 
     {% if page.sitemap.priority %}
-      <priority>{{ page.sitemap.priority }}</priority>
+    <priority>{{ page.sitemap.priority }}</priority>
     {% else %}
-      <priority>0.3</priority>
+    <priority>0.3</priority>
     {% endif %}
   </url>
 
