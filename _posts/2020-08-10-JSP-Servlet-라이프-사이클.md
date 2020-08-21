@@ -1,5 +1,5 @@
 ---
-title: JSP/Servlet 라이프 사이클
+title: JSP Servlet 라이프 사이클
 date: 2020-08-10 17:00:00 +0800
 categories: [Develop, JSP&Servlet]
 tags: [jsp&servlet]

@@ -1,5 +1,5 @@
 ---
-title: JSP/Servlet Request, Response 객체
+title: JSP Servlet Request, Response 객체
 date: 2020-08-11 19:40:00 +0800
 categories: [Develop, JSP&Servlet]
 tags: [jsp&servlet]
