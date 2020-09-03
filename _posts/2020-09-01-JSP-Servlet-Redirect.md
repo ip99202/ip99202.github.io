@@ -3,6 +3,8 @@ title: JSP Servlet Redirect
 date: 2020-09-01 22:00:00 +0800
 categories: [Develop, JSP-Servlet]
 tags: [jsp-servlet]
+seo:
+  date_modified: 2020-09-02 01:53:03 +0900
 ---
 
 # Redirect
