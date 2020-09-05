@@ -5,8 +5,6 @@ categories: [Develop, JAVA]
 tags: [java]
 ---
 
-# JAVA MySql 연결을 위한 Connector 설치방법
----
 이 포스트에서는 MySql설치를 다루지 않습니다.  
 MySql 설치를 완료하고 보는걸 추천드립니다.  
 <br>
