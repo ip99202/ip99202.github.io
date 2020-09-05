@@ -74,7 +74,7 @@ Main 클래스는 단순히 프로그램을 실행시키는 기능으로 사용�
 <br>
 
 ## 실행화면
-<img width="600px" src="https://user-images.githubusercontent.com/52627952/92304639-c36ede80-efba-11ea-9b71-afdaacea5047.gif">  
+<img width="400px" src="https://user-images.githubusercontent.com/52627952/92304639-c36ede80-efba-11ea-9b71-afdaacea5047.gif">  
 <br><br>
 
 ## Model 전체코드
