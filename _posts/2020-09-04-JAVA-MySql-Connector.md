@@ -3,6 +3,8 @@ title: JAVA MySql 연결을 위한 Connector 설치방법
 date: 2020-09-05 015:30:00 +0800
 categories: [Develop, JAVA]
 tags: [java]
+seo:
+  date_modified: 2020-09-05 15:55:41 +0900
 ---
 
 이 포스트에서는 MySql설치를 다루지 않습니다.  

@@ -3,6 +3,8 @@ title: JAVA swing을 이용한 GUI CRUD 만들기
 date: 2020-09-06 01:30:00 +0800
 categories: [Develop, JAVA]
 tags: [java]
+seo:
+  date_modified: 2020-09-06 02:23:20 +0900
 ---
 
 # 회원관리 프로그램
