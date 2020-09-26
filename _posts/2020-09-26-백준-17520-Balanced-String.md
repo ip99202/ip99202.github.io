@@ -1,6 +1,6 @@
 ---
 title: 백준 17520 Balanced String c++
-date: 2020-09-25 19:00:00 +0800
+date: 2020-09-26 19:00:00 +0800
 categories: [Algorithm, BOJ]
 tags: [boj]
 ---
