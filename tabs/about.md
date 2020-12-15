@@ -10,15 +10,27 @@ title: About
 
 <img width="400px" src="https://user-images.githubusercontent.com/52627952/102204001-a4aeab00-3f0c-11eb-82f0-c0740490566a.jpg">  
 
-[![Tech Blog Badge](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&link=https://github.com/ip99202)](https://github.com/ip99202) &nbsp; [![Solved.ac 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=ip99202)](https://solved.ac/ip99202)
-
+[![Tech Blog Badge](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&link=https://github.com/ip99202)](https://github.com/ip99202) &nbsp; [![Tech Blog Badge](http://img.shields.io/badge/-Solved%20AC-blue?style=flat-square&link=https://solved.ac/ip99202)](https://solved.ac/ip99202)
 ---
 
-- 2018 ~ 가톨릭대학교 알고리즘 소모임 알쿡 활동  
+- 2018~ 가톨릭대학교 알고리즘 소모임 알쿡 활동  
 
-- 2020 [EZSET](https://github.com/Tekiter/EZSET) 프로젝트 참여
-- 2020 UCPC 본선 진출
+
+- 2019 카톨릭대학교 창업캠프-Beginner 참가 (바이플러그 플랫폼을 이용한 앱 제작 실습)
+
+
+- 2020 EZSET 프로젝트 참여
+    - [EZSET](https://github.com/Tekiter/EZSET)
+
+
+- 2020 UCPC(전국 대학생 프로그래밍 대회) 본선 진출
+
+
 - 2020 가톨릭대학교 해커톤 “Catholic University Hackathon Project - 극도로 한정된 세계” 최우수상 수상
     - [소개 페이지](https://unruffled-euclid-597f4d.netlify.app/)
+
+
 - 2020 2학기 가톨릭대학교 SOS class 튜터 활동 (C언어와 기본적인 알고리즘)
+
+
 - 2020 ACM-ICPC 예선 교내 금상 수상
