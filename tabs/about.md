@@ -8,10 +8,13 @@ title: About
 # MIT License
 ---
 
-<img width="400px" src="https://user-images.githubusercontent.com/52627952/102204001-a4aeab00-3f0c-11eb-82f0-c0740490566a.jpg">  
+<img width="400px" src="https://user-images.githubusercontent.com/52627952/102216238-2fe46c80-3f1e-11eb-8e9a-f10e939b3a54.jpg">  
 
 [![Tech Blog Badge](http://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github&link=https://github.com/ip99202)](https://github.com/ip99202) &nbsp; [![Tech Blog Badge](http://img.shields.io/badge/-Solved%20AC-blue?style=flat-square&link=https://solved.ac/ip99202)](https://solved.ac/ip99202)
 ---
+
+- 2018~ 가톨릭대학교 컴퓨터정보공학부 재학  
+
 
 - 2018~ 가톨릭대학교 알고리즘 소모임 알쿡 활동  
 
