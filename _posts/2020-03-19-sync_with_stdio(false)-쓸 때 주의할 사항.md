@@ -52,6 +52,7 @@ int main() {
 `ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);`  
 이 코드는 C와 C++의 표준 stream의 동기화를 끊는 역할을 한다.  
 cin과 cout의 속도가 C의 입출력 속도에 비해 떨어지기 때문에 저 코드를 사용해 속도를 높이는 기능으로 사용한다.  
+자세한 내용은 [이 글](https://ip99202.github.io/posts/%EC%9E%85%EC%B6%9C%EB%A0%A5-%EC%86%8D%EB%8F%84-%EC%A4%84%EC%9D%B4%EA%B8%B0/)을 참고  
 하지만 동기화를 끊게되면 C의 입출력 함수를 더 이상 사용하지 못하는데  
 그 동안 printf와 scanf만 주의하면 된다고 생각했었는데 getchar도 C에서 쓰이는 입출력 함수이다.  
 그렇기 때문에 위에 getchar를 사용하지 못해 위의 코드는 틀렸습니다가 나오는 것이다.  
