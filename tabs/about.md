@@ -38,3 +38,7 @@ title: About
 
 
 - 2020 ACM-ICPC 예선 교내 금상 수상
+
+
+- 2020.03 ~ 2020.06 스타트업 모노라마 인턴
+  - 동대문 B2B 원단 쇼핑몰 사이트 제작 (Node + TypeScript + Angular)
